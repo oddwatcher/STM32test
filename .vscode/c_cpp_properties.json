@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "Inc",
+                "Drivers/STM32F4xx_HAL_Driver/Inc",
+                "Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
+                "Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "Drivers/CMSIS/Include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "USE_HAL_DRIVER",
+                "STM32F401xC"
+            ],
+            "compilerPath": "C:/Users/scien/gcc-arm-none-eabi-mingw64/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
